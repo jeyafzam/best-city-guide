@@ -1,0 +1,166 @@
+
+.header {
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+}
+.header .header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    text-transform:capitalize;
+    padding: 30px 0;
+}
+.header .main-menu{
+    text-transform: uppercase;
+}
+.header .main-menu ul{
+    display: flex;
+    flex-wrap: nowrap;
+    gap:30px;
+}
+.header .logo h2{
+    color: #093a58;
+}
+.header .main-menu ul li a{
+    color: #3acec2;
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px;
+    transition: all 3s;
+}
+.header .main-menu ul li a:hover{
+    color: #093a58;   
+}
+.hero-section{
+    background: #3acec2;
+    padding: 122px 0 30px;
+}
+.hero-section .parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section .parent .item-1 {
+    width: 210px;
+    height: auto;
+    position: relative;
+}
+.hero-section .parent .item-1 .hover{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    transition: all 3s;
+    opacity: 0;
+}
+.hero-section .parent .item-1:hover .hover{
+    border-radius: 50%;
+    opacity: 1;
+}
+.hero-section .parent .item-2  h1{
+    margin: 15px 0;
+}
+.hero-section .parent .item-2 p{
+    font-size: 20px;
+
+}
+.hero-section .parent .item-2  h1, .hero-section .parent .item-2 p{
+    text-align: center;
+    color: #f3f9fc;
+    transition: all 3s;
+}
+.hero-section .parent .item-2  h1:hover, .hero-section .parent .item-2  p:hover{
+    color: #093a58;
+}
+.content{
+    margin: 40px 0;
+}
+.content .content-flex{
+    display: flex;
+}
+.content .item-2{
+    padding: 0 10px;
+}
+.content .item-1, .content .item-3{
+    width: 30%;
+}
+.content .item-2{
+    width: 40%;
+}
+.content .item h2{
+    color: #093a58;
+    margin: 18px 0;
+    transition: all 3s;
+}
+.content .item h2:hover{
+    color: #3acec2;
+}
+.content .item p{
+    margin: 18px 0;
+    line-height: 22px;
+}
+.content .item-2 .caption{
+    position: relative;
+}
+.content .item-2 .caption .sub-content{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background: rgba(19, 43, 102, 0.85);
+    transition: all 3s;
+    opacity: 0;
+}
+.content .item-2 .caption .sub-content:hover{
+    opacity: 1;
+}
+.content .item-2 .caption .sub-content .text-holder{
+    padding: 0 15px 10px;
+}
+.content .item-2 .caption .sub-content .text-holder h3{
+    font-size:16px ;
+    margin-top: 16px;
+    text-align: center;
+    font-weight: normal;
+}
+.content .item-2 .caption .sub-content .text-holder p{
+    font-size: 14px;
+    margin-top: 7px;
+    text-align: left;
+    line-height: 15px;
+}
+.content .item-3 p span{
+    font-weight: bold;
+}
+.footer{
+    background:#d9e4ea;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer .fa-brands {
+    font-size: 30px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.footer .fa-whatsapp{
+    color: #079e3a;
+}
+.footer  .fa-twitter{
+    color: #24a4f3;
+}
+.footer .fa-instagram{
+    color: rgb(201, 5, 5);
+}
+.footer .fa-telegram{
+    color: #2085c4;
+}

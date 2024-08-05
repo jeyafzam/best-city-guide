@@ -1,0 +1,36 @@
+@media screen and (max-width:1150px) {
+    .container{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:1010px) {
+    .content .content-flex{
+        flex-wrap: wrap;
+    }
+    .content .item-1,
+    .content .item-2{
+        width: 50%;
+    }
+    .content .item-3{
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px) {
+    .content .item-1,
+    .content .item-2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .header .header-flex {
+        flex-direction: column;
+    }
+    .header .main-menu ul li a {
+        font-size: 15px;
+        padding: 1px;
+    }
+    .hero-section {
+        padding: 135px 0 30px;
+    }
+}
